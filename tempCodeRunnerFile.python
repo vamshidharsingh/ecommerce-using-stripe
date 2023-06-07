@@ -1,0 +1,11 @@
+import  pandas;
+data1 ={
+    'name': ["sai","ram","ali"],
+    'ages':[23,27,20],
+    'height' : [6.2,4.5,9]
+
+};
+
+newpandasdata1= pandas.DataFrame(data1);
+print(newpandasdata1);
+print();
